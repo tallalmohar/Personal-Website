@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 
+
 }
 html,body
 {
@@ -205,7 +206,7 @@ button {
     grid-template-columns: repeat(auto-fill, minmax(400px, .5fr));
     grid-gap: 40px;
     justify-self: stretch;
-
+   
     
     
   }
@@ -216,7 +217,7 @@ button {
     border-radius: .75em;
     transition: all .2s ease-in-out; 
     border: #000000 solid 2px;
-
+    box-shadow: 12px 12px 2px 1px rgb(108, 101, 101);
 
   
   }
@@ -271,6 +272,8 @@ button {
   .Education{
     border-top: #000000 solid 2px;
     margin: 52px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
 
   .education-h1{
@@ -278,6 +281,8 @@ button {
     position: relative;
     top: 140px;
     width: 100%;
+    
+    
 
   }
 
@@ -293,4 +298,30 @@ button {
     position: relative;
     top: 70px;
     width: 100%;
+    
   }
+
+  .Contact-div{
+    border-top: #000000 solid 2px;
+    margin: 52px;
+    position: relative;
+    top: 100px;
+  }
+
+.contact-h1{
+    position: relative; 
+    font-size: 60px;
+    top: 20px;
+}
+
+.experience-div{
+    border-top: #000000 solid 2px;
+    margin: 52px;
+    position: relative;
+    top: 90px;
+}
+.experience-h1{
+    position: relative; 
+    font-size: 60px;
+
+}
