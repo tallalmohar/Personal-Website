@@ -167,13 +167,28 @@
                 </ul>
 
             </div>
-            
-            
         </div>
+
+       
+            <h1 class="contact-h1 odibee-sans-regular">Contact</h1>
+    
+       <section class="contact-sect">
         
+            <form onsubmit="sendEmail()">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <textarea id="message" row="4" placeholder="Your message"></textarea>
+                <button type="submit">
+                    <span class="button_top"> <img src="./images/send.svg" height="20px" style = "position: relative; top:4px; right:3px;"> Send
+                    </span>
+                  </button>
+            </form>
+        </section>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
    <script src="./script.js"></script>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
   
 </body>
 </html>
