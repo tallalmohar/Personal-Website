@@ -355,3 +355,7 @@ button {
     transform: scale(1.5);
     cursor: pointer;
 }
+
+.project-githubbtn:hover{
+    cursor: pointer;
+}
