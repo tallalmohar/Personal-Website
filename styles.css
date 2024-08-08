@@ -269,22 +269,6 @@ button {
     left: 10px;
   }
 
-  .Education{
-    border-top: #000000 solid 2px;
-    margin: 52px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-
-
-  .location-education{
-    padding-right: 225px;
-    background: linear-gradient(to right, #f32170 ,#cb08cb,  rgb(30,0,255));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    width: 100%;
-  }
-
 .Education-section{
     margin: 52px;
    position: relative;
@@ -311,7 +295,7 @@ button {
 .education-contentdiv{
     position: relative;
     left: 20px;
-    top: 20px;
+    top: 30px;
 }
 
 .education-h1div{
@@ -335,7 +319,7 @@ button {
     padding-top: 20px;
     display: inline-flex;
     white-space: nowrap;
-    width: 1000px;
+    width: 100%;
     
 }
 
@@ -343,7 +327,7 @@ button {
     animation-play-state: paused;
 }
 .logos-slide {
-    animation: slide 25s infinite linear;
+    animation: slide 15s infinite linear;
 }
 .logos-slide img{
     height: 50px;
@@ -358,4 +342,44 @@ button {
 
 .project-githubbtn:hover{
     cursor: pointer;
+}
+
+.cert-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+.cert-img{
+    padding: 10px;
+}
+.cert-img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.cert-info{
+    align-self: center;
+    width: 1200px;
+    padding: 10px;
+    margin-left: 30px;
+    background-color: #d9d9d9;
+    border-radius: .75em;
+    transition: all .2s ease-in-out; 
+    border: #000000 solid 2px;
+    box-shadow: 12px 12px 2px 1px rgb(108, 101, 101);
+}
+.cert-info:hover{
+    transform: scale(1.1);
+}   
+.cert-info ul{
+    font-size: 20px;
+    list-style: none;
+}
+
+.cert-ul-point{
+    background: linear-gradient(to right, #f32170 ,#cb08cb,  rgb(30,0,255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
