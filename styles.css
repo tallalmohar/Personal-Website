@@ -298,5 +298,60 @@ button {
 }
 
 .education-p{
-    font-size: 20px;
+    font-size: 25px;
+    z-index: 1;
+    color: white;
+}
+
+.education-h2{
+    z-index: 1;
+    color: white;
+}
+
+.education-contentdiv{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.education-h1div{
+    margin-bottom: 20px;
+}
+@keyframes slide { 
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+
+}
+
+
+.logos{
+    overflow: hidden;
+    position: relative;
+    bottom: 100px;
+    padding-top: 20px;
+    display: inline-flex;
+    white-space: nowrap;
+    width: 1000px;
+    
+}
+
+.logos:hover .logos-slide{
+    animation-play-state: paused;
+}
+.logos-slide {
+    animation: slide 25s infinite linear;
+}
+.logos-slide img{
+    height: 50px;
+    margin: 20px;
+
+}
+
+.logos-slide img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
 }
