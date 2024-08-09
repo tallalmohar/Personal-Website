@@ -432,11 +432,18 @@ form input,form textarea{
     position:relative;
     margin: 10px 5px 0 10px;
     border-radius: 10px;
+    display: flex  ;
+    justify-content: center ;
+    align-items: center;    
+
     
 }
 
-.project-img{
-    position: relative;
-    left: 120px;
-    top: 10px;
+.porj-img{
+    border-radius: 10px;
+}
+
+.email-link{
+    text-decoration: none;
+    color: black;
 }
